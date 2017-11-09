@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * The Footer for Optimizer
  *
@@ -8,16 +8,18 @@
  * 
  * @since Optimizer 1.0
  */
-global $optimizer;?>
+global $optimizer;
+?>
 
-	<?php /*To Top Button */?>
-	<a class="to_top <?php if (empty ($optimizer['totop_id'])) { ?>hide_totop<?php } ?>"><i class="fa-angle-up fa-2x"></i></a>
+<?php /* To Top Button */ ?>
+<a class="to_top <?php if (empty($optimizer['totop_id'])) { ?>hide_totop<?php } ?>"><i class="fa-angle-up fa-2x"></i></a>
 
 
 
 <!--Footer Start-->
 
-    <div class="footer center">
+<div class="footer center">
+    <div class="row-footer">
         <div class="3colonnes">
             <p>CETIAC<br>
                 18 rue Pasteur - 69007 Lyon<br>
@@ -38,6 +40,7 @@ global $optimizer;?>
                 <i class="fa-twitter"></i><i class="fa-linkedin"></i></p>
         </div>
     </div>
+</div>
 
 
 
