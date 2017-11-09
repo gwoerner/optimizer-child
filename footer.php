@@ -18,6 +18,8 @@ global $optimizer;
 
 <!--Footer Start-->
 
+</div>
+
 <div class="footer center">
     <div class="row-footer">
         <div class="3colonnes">
