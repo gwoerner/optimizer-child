@@ -16,12 +16,12 @@ global $optimizer;?>
 
 
 <!--Footer Start-->
-<div class="footer_wrap layer_wrapper <?php if(!empty($optimizer['hide_mob_footwdgt'])){ echo 'mobile_hide_footer';} ?>">
-    <div class="footer">
+
+    <div class="footer center">
         <div class="3colonnes">
             <p>CETIAC<br>
                 18 rue Pasteur - 69007 Lyon<br>
-                <i class="fa-envelop"></i> contact@cetiac.fr<br>
+                <i class="fa-envelope"></i> contact@cetiac.fr<br>
                 <i class="fa-phone"></i> 06 XX XX XX XX</p>
         </div>
         <div class="3colonnes">
@@ -38,7 +38,7 @@ global $optimizer;?>
                 <i class="fa-twitter"></i><i class="fa-linkedin"></i></p>
         </div>
     </div>
-</div><!--layer_wrapper class END-->
+
 
 
 <?php wp_footer(); ?>
