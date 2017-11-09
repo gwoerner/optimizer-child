@@ -18,6 +18,17 @@ Frontpage
     border-radius: 50%;
 }
 
+.widgettitle {
+    text-align: center;
+    font-size: 30px;
+    color: #222222;
+}
+
+.logos-clients {
+    text-align: center;
+}
+
+
 
 /* ========================================================
 Footer
