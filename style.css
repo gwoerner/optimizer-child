@@ -10,6 +10,13 @@
 */
 
 /* ========================================================
+Texte - mise en page générale
+========================================================= */
+
+
+
+
+/* ========================================================
 Menu
 ========================================================= */
 
@@ -53,13 +60,18 @@ Pages
 }
 
 .bloc-gauche {
-    margin: 0 100px 100px 0px; /* bloc avec marge à droite pour l'image */
+    margin: 50px 100px 100px 0px; /* bloc avec marge à droite pour l'image */
 }
 
 .bloc-droit {
-    margin: 0 0px 100px 100px; /* bloc avec marge à gauche pour l'image */
+    margin: 50px 0px 100px 100px; /* bloc avec marge à gauche pour l'image */
 }
 
+.bloc-gauche img {
+    position: relative;
+    right: -70px;
+    top: -50px;
+}
 
 
 /* ========================================================
