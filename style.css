@@ -9,6 +9,14 @@
  Text Domain: optimizer-child
 */
 
+/* ========================================================
+Menu
+========================================================= */
+
+#topmenu ul li a:hover {
+    color: #e6e639;
+}
+
 
 /* ========================================================
 Frontpage
@@ -26,6 +34,30 @@ Frontpage
 
 .logos-clients {
     text-align: center;
+}
+
+/* ==========================================================
+Pages
+=========================================================== */
+
+#page_cetiac {
+    background-image: url(https://www.cyghes.fr/cetiac/wp-content/uploads/2017/11/travaux.jpg);
+    background-size: contain;
+    height: 300px;
+}
+
+
+.bloc-texte {
+    border: solid 1px #e6e639;
+    padding: 26px;
+}
+
+.bloc-gauche {
+    margin: 0 100px 100px 0px; /* bloc avec marge à droite pour l'image */
+}
+
+.bloc-droit {
+    margin: 0 0px 100px 100px; /* bloc avec marge à gauche pour l'image */
 }
 
 
